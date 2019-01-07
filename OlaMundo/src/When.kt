@@ -21,6 +21,5 @@ fun main(args: Array<String>) {
             "Nenhuma das opções !"
         }
     }
-    var teste = "teste"
     println(str)
 }
