@@ -1,4 +1,3 @@
 interface iDirigivel{
-    fun acelerar(velociade: Int){
-    }
+    fun acelerar(velociade: Int)
 }
