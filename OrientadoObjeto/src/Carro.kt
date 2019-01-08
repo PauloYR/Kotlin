@@ -1,7 +1,11 @@
-class Carro(var cor:String ,var ano: Int,var modelo: String){
+class Carro(override var cor:String ,override var ano: Int,override var modelo: String): Veiculo(cor,ano,modelo),iDirigivel{
+    fun abriPorta(){
+        println("Abrindo A porta do $modelo")
+    }
 
-    fun acelerar(){
-        println("Acelerando o $modelo")
+    override fun acelerar(velociade: Int) {
+        super.acelerar(velociade)
+        println("Acelerando o $velociade Km/h")
     }
 }
 /*
