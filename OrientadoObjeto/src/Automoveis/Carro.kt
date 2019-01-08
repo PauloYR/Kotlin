@@ -1,17 +1,18 @@
-class Carro(override var cor:String ,override var ano: Int,override var modelo: String): Veiculo(cor,ano,modelo),iDirigivel{
-    fun abriPorta(){
-        println("Abrindo A porta do $modelo")
+package Automoveis
+
+class Carro(override var cor: String, override var ano: Int, override var modelo: String) : Veiculo(cor, ano, modelo), iDirigivel {
+    override fun acelerar(velociade: Int) {
+        println("Acelerando o $velociade Km/h")
     }
 
-    override fun acelerar(velociade: Int) {
-        super.acelerar(velociade)
-        println("Acelerando o $velociade Km/h")
+    fun abriPorta() {
+        println("Abrindo A porta do $modelo")
     }
 }
 /*
 -------------Construtor Primario----------------
 ex. 1:
-    class Carro(cor:String , ano: Int, modelo: String){
+    class Automoveis.Carro(cor:String , ano: Int, modelo: String){
         var cor: String
         var ano: Int
         var modelo: String
@@ -26,7 +27,7 @@ ex. 1:
         }
     }
 ex. 2:
-    class Carro(var cor:String ,var ano: Int,var modelo: String){
+    class Automoveis.Carro(var cor:String ,var ano: Int,var modelo: String){
 
         init{//Não é obrigatorio
 

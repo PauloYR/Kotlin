@@ -1,5 +1,7 @@
- /*Enum (Enumeração) -> é um tipo de dados 
-     * que consiste em um conjunto de constantes */
+package Automoveis
+
+/*Enum (Enumeração) -> é um tipo de dados
+    * que consiste em um conjunto de constantes */
     enum class StatusPedido {
         PROCESSANDO, APROVADO, REPROVADO 
     }
@@ -22,10 +24,10 @@
             pedido.status = StatusPedido.REPROVADO
         }
         
-        if( pedido.status == StatusPedido.APROVADO ){
-            println( "Pedido aprovado" )
+        if( pedido.status == StatusPedido.APROVADO){
+            println( "Automoveis.Pedido aprovado" )
         }else if(pedido.status == StatusPedido.REPROVADO){
-            println( "Pedido reprovado" )
+            println( "Automoveis.Pedido reprovado" )
         }
         
         
