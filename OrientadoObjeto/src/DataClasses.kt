@@ -1,3 +1,5 @@
+//São classes que não fazem nada, apenas carregam dados de um lado
+//para o outro e por padrão já vem com algumas funcionalidades implementadas
 data class DataLivro(val titulo: String, val autor: String, val ano: Int)
 
 class Livro(val titulo: String, val autor: String, val ano: Int)
