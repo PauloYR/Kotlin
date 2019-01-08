@@ -24,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Celcius"
-                android:id="@+id/celciusR"
+                android:id="@+id/celsiusR"
         />
         <RadioButton
                 android:layout_width="match_parent"
