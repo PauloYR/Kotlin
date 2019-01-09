@@ -23,7 +23,7 @@
         <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Celcius"
+                android:text="Celsius"
                 android:id="@+id/celciusR"
         />
         <RadioButton
