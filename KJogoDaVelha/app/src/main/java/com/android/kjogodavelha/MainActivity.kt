@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
         val col3 = listOf(3,6,9)
 
         val diag1 = listOf(1,5,9)
-        val diag2 = listOf(2,5,7)
+        val diag2 = listOf(3,5,7)
 
         var winner = -1
 
